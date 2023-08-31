@@ -1,0 +1,148 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+
+
+body {
+background-image: url("pexels-alesia-talkachova-2768281.jpg");
+background-size: cover;
+
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #212529b1
+}
+
+/* .title {  */
+    /* margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); */
+    /* color: antiquewhite;
+    font-weight: 200; */
+/* } */
+
+button {
+    background-color: #212529;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 38rem;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+h1{
+    color: antiquewhite;
+    font:italic;
+    /* background-color: #212529ab;
+    border-radius: 20px; */
+}
+
+.wrapperBMI {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 25px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+.btnCalculate {
+    width: max-content;
+}
+.h1BMI { 
+    color: rgba(33, 37, 41, 0.694);
+    font-size: 25px;
+}
+
+form {
+    padding: 15px;
+    margin: 15px;
+
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.textBMI { 
+    color: rgba(33, 37, 41, 0.694);
+    font-weight: bold;
+}
+
+.resultBMI { 
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.btnClear { 
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+
+.wrapperDIETS{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 25px;
+    width: 80%;
+    max-width: 80%;
+    min-width: 500px;
+}
+
+.h1_diets, .h1Contact {
+    color: #212529b1;
+    font-size: 25px;
+    /* padding-top: 15px;
+    margin-top: 20px; */
+}
+.pDiets{
+    margin-top: 25px;
+}
+.aboutUs{ 
+    margin-top: 20px;
+    padding-top: 20px;
+    /* max-height: 300px;
+    min-width: 400px;; */
+}
+.contentAbout{
+    margin-top: 50px;
+}
+.captionAbout{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: justify;
+}
+.contactContainer{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 25px;
+    width: 80%;
+    max-width: 80%;
+    min-width: 500px;
+}
+.h1Contact{
+    margin-top: 20px;
+    text-align: center;
+}
+.comment { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
